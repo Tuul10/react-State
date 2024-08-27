@@ -1,6 +1,10 @@
-const { State } = require("../components/State");
+import { StepPage } from "../components/StepPage";
 
 const Home = () => {
-  return <div>{/* <State /> */}</div>;
+  return (
+    <div>
+      <StepPage />
+    </div>
+  );
 };
 export default Home;

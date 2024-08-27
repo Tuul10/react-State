@@ -4,7 +4,7 @@ const userList = ["Tergel", "Tengis", "Dash", "Nym"];
 
 export const State = () => {
   const [index, setindex] = useState(0);
-  const [user, setuser] = useState(userList);
+  const [user, setUser] = useState(userList);
 
   return (
     <div className="text-center">
