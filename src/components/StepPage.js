@@ -11,11 +11,13 @@ export const StepPage = () => {
       setStep((prevStep) => prevStep + 1);
     }
   };
+
   const HandlePrevStep = () => {
     if (step > 0) {
       setStep((prevStep) => prevStep - 1);
     }
   };
+
   const toggleState = () => {
     setisHideState(!isHidestate);
   };
@@ -54,7 +56,7 @@ export const StepPage = () => {
               3
             </div>
           </div>
-          <p className="mb-10 text-center">{messages[step - 1]}</p>
+          <p className="mb-10 text-center">{messages[step - 1]} </p>
           <div className="flex justify-between">
             <button
               onClick={HandlePrevStep}
